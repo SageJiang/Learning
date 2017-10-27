@@ -1,0 +1,19 @@
+html, body {
+    margin:0; 
+    padding: 0;
+ }
+
+.group {
+    list-style: none;
+    width:100%;
+    height:100vw;
+}
+
+.group span {
+    width:30%;
+    height:30vw;
+    border-radius: 10px;
+    margin:2% auto auto 2%;
+    background-color:#F0E989;
+    float: left;
+}
