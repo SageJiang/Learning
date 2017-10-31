@@ -4,6 +4,7 @@ body,html {
     Font-size:62.5%;
     background:#68CDD6;
     overflow: hidden;
+    height:100%;
 }
 
 .menu {
@@ -15,27 +16,27 @@ body,html {
 
 .logo {
     text-align: center;
-    margin-top:20rem;
-    margin-left:-3%;
+    margin-top:30%;
+    margin-left:-1%;
 }
 
 .text {
     color:white;
     font-size: 20px;
-    margin:5rem 10% 5rem 12%;
+    margin:5% 10% 5% 12%;
     width:80%;
 }
 
 .contect {
-    margin-top: 10rem;
+    margin-top: 10%;
 }
 
-.contect #logo1 {
+.contect .logo1 {
     float: right;
     margin-right: 10%;
 }
 
-.contect #logo2 {
+.contect .logo2 {
     float: left;
     margin-left: 10%;
 }
