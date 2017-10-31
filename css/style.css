@@ -1,19 +1,41 @@
-html, body {
-    margin:0; 
-    padding: 0;
- }
-
-.group {
-    list-style: none;
-    width:100%;
-    height:100vw;
+body,html {
+    margin:0;
+    padding:0;
+    Font-size:62.5%;
+    background:#68CDD6;
+    overflow: hidden;
 }
 
-.group span {
-    width:30%;
-    height:30vw;
-    border-radius: 10px;
-    margin:2% auto auto 2%;
-    background-color:#F0E989;
+.menu {
+    position: fixed;
+    top:3rem;
+    left: 3rem;
+    width:100%;
+}
+
+.logo {
+    text-align: center;
+    margin-top:20rem;
+    margin-left:-3%;
+}
+
+.text {
+    color:white;
+    font-size: 20px;
+    margin:5rem 10% 5rem 12%;
+    width:80%;
+}
+
+.contect {
+    margin-top: 10rem;
+}
+
+.contect #logo1 {
+    float: right;
+    margin-right: 10%;
+}
+
+.contect #logo2 {
     float: left;
+    margin-left: 10%;
 }
