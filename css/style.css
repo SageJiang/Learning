@@ -15,28 +15,32 @@ body,html {
 }
 
 .logo {
-    text-align: center;
-    margin-top:30%;
-    margin-left:-1%;
+    position: absolute;
+    top:30%;
+    height:73px;
+    margin-top: -36px;
+    width:100%;
+    text-align:center;
+    float: left;
+    padding-bottom:50px;
 }
 
-.text {
+.logo .text {
     color:white;
     font-size: 20px;
-    margin:5% 10% 5% 12%;
+    margin-left: 12%;
+    margin-right: 10%;
     width:80%;
 }
 
-.contect {
-    margin-top: 10%;
+.logo .logo1 {
+    position: absolute;
+    right:10%;
+    margin-top: 20px;
 }
 
-.contect .logo1 {
-    float: right;
-    margin-right: 10%;
-}
-
-.contect .logo2 {
-    float: left;
-    margin-left: 10%;
+.logo .logo2 {
+    position: absolute;
+    left:10%;
+    margin-top: 20px;
 }
