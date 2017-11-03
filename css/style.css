@@ -1,46 +1,82 @@
-body,html {
+html,body {
     margin:0;
     padding:0;
-    Font-size:62.5%;
-    background:#68CDD6;
-    overflow: hidden;
-    height:100%;
+    overflow:hidden ;
 }
 
-.menu {
-    position: fixed;
-    top:3rem;
-    left: 3rem;
+header {
+    background-color: #5AC0CE;
     width:100%;
+    height:50px;
+    position:fixed;
+    top:0;
 }
 
-.logo {
-    position: absolute;
-    top:30%;
-    height:73px;
-    margin-top: -36px;
-    width:100%;
-    text-align:center;
-    float: left;
-    padding-bottom:50px;
+#none1 {
+    height:50px;
+    width:100%;    
 }
 
-.logo .text {
-    color:white;
+header button {
     font-size: 20px;
-    margin-left: 12%;
-    margin-right: 10%;
-    width:80%;
+    color:white;
+    border:none;
+    background: none;
 }
 
-.logo .logo1 {
-    position: absolute;
-    right:10%;
-    margin-top: 20px;
+header #reg {
+    position: fixed;
+    left:5px;
+    top:10px;
+}
+header #close {
+    position: fixed;
+    right:5px;
+    top:10px;
 }
 
-.logo .logo2 {
-    position: absolute;
-    left:10%;
-    margin-top: 20px;
+header p {
+    color:white;
+    text-align: center;
+    font-size:21px;
+    margin-top:10px;
+}
+
+
+.input {
+    display:flex;
+    height:50px;
+}
+.input .icon {
+    flex:none;
+    width:50px;
+}
+
+.input .icon img {
+    height:30px;
+    margin:10px 15px 8px 15px; 
+}
+
+.input input {
+    flex:1;
+    border:none;
+}
+
+#log {
+    border:none;
+    height:50px;
+    width:100%;
+    background-color: #5AC0CE;
+    color:white;
+    font-size:21px;
+    letter-spacing:10px;
+}
+
+#forget {
+    border:none;
+    text-decoration: underline;
+    background:none;
+    margin:5px 10px auto auto;  
+    float:right;  
+    color:#5AC0CE;
 }
